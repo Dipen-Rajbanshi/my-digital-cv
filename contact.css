@@ -1,0 +1,174 @@
+/* General styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 15px 30px;
+}
+
+/* Logo styling for Dipen Rajbanshi */
+#logo {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Adding hover effect to the logo */
+#logo:hover{
+    color: #f53f3f;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+nav a {
+    color: #f4f4f4;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #f53f3f;
+}
+
+/* Contact Section Styling */
+.contact {
+    padding: 4rem 5%;
+    text-align: center;
+    background-color: #9D9B92;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #f4f4f4;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Contact Heading */
+.contact h1 {
+    font-size: 3rem;
+    color: #222;
+}
+
+.contact p {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Group First Name & Last Name on same line */
+.name-group {
+    display: flex;
+    justify-content: start;
+    gap: 50px; /* Increased gap */
+    width: 100%;
+}
+
+
+/* Individual input boxes */
+.input-box {
+    display: flex;
+    flex-direction: column; /* Ensures labels stay above input fields */
+    width: 100%;
+}
+
+
+/* Label Styling */
+label {
+    display: block; /* Ensures labels take full width */
+    text-align: left; /* Align text to the left */
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+
+/* Input Fields */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Bigger message box */
+textarea {
+    height: 150px;
+}
+
+/* Submit Button */
+button {
+    background-color: #222;
+    color: white;
+    padding: 12px;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact {
+        padding: 3rem 5%;
+    }
+
+    .container {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .contact h1 {
+        font-size: 2.5rem;
+    }
+
+    .contact p {
+        font-size: 1.2rem;
+    }
+
+    button {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    .name-group {
+        flex-direction: column;
+    }
+
+    .input-box {
+        width: 100%;
+    }
+}

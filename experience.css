@@ -1,0 +1,146 @@
+/* General styles */
+body {
+    height: 100%;
+    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 15px 30px;
+}
+
+/* Logo Styling */
+#logo {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#logo:hover {
+    color: #f53f3f;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+/* Navigation Styling */
+nav a {
+    color: #f4f4f4;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    color: #f53f3f;
+}
+
+/* Experience Section Styling */
+.experience {
+    padding: 2rem 5%;
+    background-color: #9D9B92;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Centering Experience Items */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%; /* Slightly wider */
+    max-width: 1300px; /* Expands width */
+    margin: 0 auto;
+}
+
+/* Experience Heading */
+.experience h1 {
+    font-size: 3.5rem; /* One step smaller */
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1.2rem;
+}
+
+/* Experience Description */
+.experience p {
+    font-size: 1.4rem; /* Adjusted size */
+    color: white;
+    max-width: 85%;
+    line-height: 1.7;
+}
+
+/* Experience Item Styling */
+.exp-item {
+    background-color: #f4f4f4;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+    margin: 3rem 0;
+    max-width: 75%; /* Increased width */
+    text-align: left;
+}
+
+/* Individual Experience Details */
+.exp-item h2 {
+    font-size: 2rem; /* Smaller but readable */
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+.exp-item p {
+    font-size: 1.3rem; /* Slightly smaller */
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.exp-item ul {
+    padding-left: 20px;
+    margin-top: 1rem;
+}
+
+.exp-item li {
+    font-size: 1.2rem; /* Smaller */
+    color: #444;
+    margin-bottom: 8px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* Social Links */
+.footer-social a {
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-social .lin:hover {
+    color: #0077b5;
+}
+
+.footer-social .git:hover {
+    color: #333;
+}

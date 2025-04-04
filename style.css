@@ -1,0 +1,161 @@
+/* General styles */
+body {
+    height: 100vh;
+    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 15px 30px;
+}
+
+/* Logo styling for Dipen Rajbanshi */
+#logo {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Adding hover effect to the logo */
+#logo:hover{
+    color: #f53f3f;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+/* Navigation bar styling */
+nav a {
+    color: #f4f4f4;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+/* Adding hover effect to the navigation links */
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    color: #f53f3f;
+}
+
+/* Home section Styling */
+.home{
+    padding: 3rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color:#9D9B92;
+}
+
+/* Home content styling */
+.home .home-content h1{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: white;
+}
+
+/* Adding Color to highlighted text */
+span{
+    color: #f53f3f;
+}
+
+/* Heading styling in home content */
+.home-content h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: white;
+}
+
+/* Paragraph styling in home content */
+.home-content p{
+    font-size: 1.6rem;
+    color: white;
+}
+
+/* Image styling inside home content */
+.home-img{
+    border-radius: 50%;
+}
+
+.home-img img{
+    position: relative;
+    width: 30vw;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 25px #b74b4b;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+/* Adding hover effect to the image */
+.home-img img:hover{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+
+/* Hire me button styling*/
+.btn {
+    display: flex;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+/*Adding hover effect to the button */
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #444;
+}
+
+/* Footer styling */
+footer {
+    background-color: #222;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* Icon styling for linkedIn */
+.footer-social .lin {
+    font-size: 24px;
+    margin: 10px;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Adding hover effect to the linkedIn icon */
+.footer-social .lin:hover {
+    color: #0077b5;
+}
+
+/* Icon styling for github */
+.footer-social .git {
+    font-size: 24px;
+    margin: 10px;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Adding hover effect to the github icon */
+.footer-social .git:hover {
+    color: #333;
+}

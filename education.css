@@ -1,0 +1,183 @@
+/* General styles */
+body {
+    height: 100vh;
+    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0 0 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 15px 30px;
+}
+
+/* Logo styling for Dipen Rajbanshi */
+#logo {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Adding hover effect to the logo */
+#logo:hover{
+    color: #f53f3f;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+/* Navigation bar styling */
+nav a {
+    color: #f4f4f4;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+/* Adding hover effect to the navigation links */
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    color: #f53f3f;
+}
+
+/*styling for the home section*/
+.education {
+    text-align: center;
+    padding: 5rem 3rem 2rem;
+    background: #9D9B92;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+/* Heading styles */
+.education h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Timeline Layout */
+.edu-timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1000px; /* Increased width */
+    margin: auto;
+}
+
+/* Education items */
+.edu-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    padding: 20px 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect for items */
+.edu-item:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Icons (Image) */
+.edu-icon {
+    width: 120px; /* Larger image */
+    height: 120px;
+    margin-right: 20px;
+    object-fit: cover; /* Ensure image doesn't stretch */
+    border-radius: 10px; /* Rounded edges for images */
+}
+
+/* Text Styling */
+.edu-details {
+    text-align: left;
+    max-width: 700px; /* Control text width */
+}
+
+/*Styling for the heading inside education section*/
+.edu-details h2 {
+    font-size: 1.8rem;
+    color: #f53f3f;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/*Styling for the subheading inside education section*/
+.edu-details span {
+    font-size: 1.1rem;
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/*Styling for the paragraph inside education section*/
+.edu-details p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .edu-item {
+        flex-direction: column; /* Stack items on smaller screens */
+        align-items: center;
+        text-align: center;
+    }
+    
+/* Image size adjustment for smaller screens */
+    .edu-icon {
+        margin-bottom: 15px; /* Space between image and text */
+    }
+}
+
+/* Footer styling */
+footer {
+    background-color: #222;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* Icon styling for linkedIn */
+.footer-social .lin {
+    font-size: 24px;
+    margin: 10px;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Adding hover effect to the linkedIn icon */
+.footer-social .lin:hover {
+    color: #0077b5;
+}
+
+/* Icon styling for github */
+.footer-social .git {
+    font-size: 24px;
+    margin: 10px;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Adding hover effect to the github icon */
+.footer-social .git:hover {
+    color: #333;
+}
