@@ -95,7 +95,7 @@ span{
     width: 30vw;
     height: auto;
     border-radius: 50%;
-    box-shadow: 0 0 25px #b74b4b;
+    box-shadow: 0 0 25px rgb(253, 252, 252);
     cursor: pointer;
     transition: 0.2s linear;
 }
