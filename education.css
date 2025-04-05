@@ -48,6 +48,26 @@ nav a:hover {
     color: #f53f3f;
 }
 
+/* Mobile responsiveness for header and nav */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+}
+
+
 /*styling for the home section*/
 .education {
     text-align: center;
@@ -68,10 +88,9 @@ nav a:hover {
 .edu-timeline {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    max-width: 1000px; /* Increased width */
-    margin: auto;
+    align-items: center;
 }
+
 
 /* Education items */
 .edu-item {
@@ -104,9 +123,10 @@ nav a:hover {
 
 /* Text Styling */
 .edu-details {
-    text-align: left;
-    max-width: 700px; /* Control text width */
+    text-align: center; /* Centers text */
+    width: 100%; /* Allows text to take up full space */
 }
+
 
 /*Styling for the heading inside education section*/
 .edu-details h2 {
@@ -135,17 +155,35 @@ nav a:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .edu-timeline {
+        width: 100%; /* Make timeline fill mobile screen */
+        padding: 0 10px; /* Add spacing */
+    }
+
     .edu-item {
-        flex-direction: column; /* Stack items on smaller screens */
+        flex-direction: column; /* Stack items */
         align-items: center;
         text-align: center;
+        width: 100%;
+        padding: 15px; /* Reduce padding on mobile */
     }
-    
-/* Image size adjustment for smaller screens */
+
+    /* Make images responsive */
     .edu-icon {
-        margin-bottom: 15px; /* Space between image and text */
+        width: 80px; /* Slightly smaller icons for mobile */
+        height: 80px;
+    }
+
+    /* Adjust text styles */
+    .edu-details h2 {
+        font-size: 1.5rem;
+    }
+
+    .edu-details span, .edu-details p {
+        font-size: 1rem;
     }
 }
+
 
 /* Footer styling */
 footer {

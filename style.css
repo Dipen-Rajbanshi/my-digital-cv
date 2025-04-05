@@ -1,13 +1,12 @@
 /* General styles */
 body {
-    height: 100vh;
-    max-width: 100%;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: white;
     color: #333;
 }
+
 
 /* Header Styling */
 header {
@@ -38,14 +37,18 @@ nav a {
     color: #f4f4f4;
     text-decoration: none;
     margin: 0 15px;
-    font-size: 18px;
 }
 
-/* Adding hover effect to the navigation links */
 nav a:hover {
     text-decoration: underline;
-    transform: scale(1.1);
     color: #f53f3f;
+}
+
+/* Width of the container */
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
 }
 
 /* Home section Styling */
@@ -90,12 +93,18 @@ span{
     border-radius: 50%;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 .home-img img{
     position: relative;
     width: 30vw;
     height: auto;
     border-radius: 50%;
-    box-shadow: 0 0 25px #b74b4b;
+    box-shadow: 0 0 25px rgb(255, 255, 255);
     cursor: pointer;
     transition: 0.2s linear;
 }
@@ -158,4 +167,62 @@ footer {
 /* Adding hover effect to the github icon */
 .footer-social .git:hover {
     color: #333;
+}  
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    /* Adjust header layout */
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    /* Home section adjustments */
+    .home {
+        flex-direction: column;
+        text-align: center;
+        gap: 4rem;
+        padding: 2rem;
+    }
+
+    .home .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.8rem;
+    }
+
+    .home-content p {
+        font-size: 1.4rem;
+    }
+
+    /* Make profile image smaller */
+    .home-img img {
+        width: 50vw;
+    }
+
+    /* Footer text alignment */
+    footer {
+        padding: 15px;
+    }
+
+    .footer-social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
+

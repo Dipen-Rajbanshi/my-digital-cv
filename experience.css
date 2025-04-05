@@ -114,10 +114,50 @@ nav a:hover {
     margin-top: 1rem;
 }
 
+.exp-item p, .exp-item ul {
+    max-width: 90%;
+}
+
+
 .exp-item li {
     font-size: 1.2rem; /* Smaller */
     color: #444;
     margin-bottom: 8px;
+}
+
+/*Mobile Responsiveness*/
+@media (max-width: 768px) {
+    .exp-item {
+        flex-direction: column; /* Stack items */
+        align-items: center;
+        text-align: center; /* Center text */
+        width: 90%;
+        padding: 15px;
+    }
+
+    /* Ensure content fills available space */
+    .exp-item h2, .exp-item p, .exp-item ul {
+        width: 100%;
+    } 
+}
+
+/* Mobile responsiveness for header and nav */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        margin: 5px;
+    }
 }
 
 /* Footer Styling */
