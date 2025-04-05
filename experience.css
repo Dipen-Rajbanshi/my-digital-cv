@@ -72,14 +72,14 @@ nav a:hover {
 .experience h1 {
     font-size: 3.5rem; /* One step smaller */
     font-weight: 700;
-    color: white;
+    color: #282828;
     margin-bottom: 1.2rem;
 }
 
 /* Experience Description */
 .experience p {
     font-size: 1.4rem; /* Adjusted size */
-    color: white;
+    color: #282828;
     max-width: 85%;
     line-height: 1.7;
 }
@@ -167,6 +167,12 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 10px;
+}
+
+footer a {
+    color: #A3A3FF;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /* Social Links */

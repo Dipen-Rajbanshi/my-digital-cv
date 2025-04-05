@@ -80,7 +80,7 @@ nav a:hover {
 /* Heading styles */
 .education h1 {
     font-size: 2.5rem;
-    color: white;
+    color: #121212;
     margin-bottom: 20px;
 }
 
@@ -184,7 +184,6 @@ nav a:hover {
     }
 }
 
-
 /* Footer styling */
 footer {
     background-color: #222;
@@ -192,6 +191,12 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 10px;
+}
+
+footer a {
+    color: #A3A3FF;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /* Icon styling for linkedIn */
@@ -219,3 +224,5 @@ footer {
 .footer-social .git:hover {
     color: #333;
 }
+
+
