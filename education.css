@@ -48,7 +48,7 @@ nav a:hover {
     color: #f53f3f;
 }
 
-/* Mobile responsiveness for header and nav */
+/* Adding media queries for Mobile responsiveness for header and nav */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -108,7 +108,7 @@ nav a:hover {
 
 /* Hover effect for items */
 .edu-item:hover {
-    transform: translateY(-5px); /* Slight lift on hover */
+    transform: translateY(-5px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -123,10 +123,9 @@ nav a:hover {
 
 /* Text Styling */
 .edu-details {
-    text-align: center; /* Centers text */
-    width: 100%; /* Allows text to take up full space */
+    text-align: center;
+    width: 100%;
 }
-
 
 /*Styling for the heading inside education section*/
 .edu-details h2 {
@@ -153,7 +152,7 @@ nav a:hover {
     margin-top: 5px;
 }
 
-/* Responsive Design */
+/* Media queries for Responsive Design */
 @media (max-width: 768px) {
     .edu-timeline {
         width: 100%; /* Make timeline fill mobile screen */

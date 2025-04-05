@@ -187,6 +187,7 @@ footer a {
     }
 }
 
+/* Mobile responsiveness for header and nav */
 @media (max-width: 768px) {
     header {
         flex-direction: column;

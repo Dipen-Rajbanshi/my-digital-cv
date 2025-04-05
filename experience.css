@@ -25,7 +25,7 @@ header {
     font-size: 24px;
     font-weight: bold;
 }
-
+/* Adding hover effect to the logo */
 #logo:hover {
     color: #f53f3f;
     text-decoration: underline;
@@ -40,6 +40,7 @@ nav a {
     font-size: 18px;
 }
 
+/* Adding hover effect to the navigation links */
 nav a:hover {
     text-decoration: underline;
     transform: scale(1.1);
