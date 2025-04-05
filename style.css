@@ -104,7 +104,11 @@ img {
     width: 30vw;
     height: auto;
     border-radius: 50%;
+<<<<<<< HEAD
     box-shadow: 0 0 25px rgb(255, 255, 255);
+=======
+    box-shadow: 0 0 25px rgb(253, 252, 252);
+>>>>>>> b72cf708d8c3547cf526d0a6f3b64d059742bd7d
     cursor: pointer;
     transition: 0.2s linear;
 }
