@@ -63,7 +63,7 @@ nav a:hover {
 }
 
 /* Home content styling */
-.home-content h2 {
+.home-content h1 {
     font-size: 6rem;
     font-weight: 700;
     line-height: 1.3;
@@ -80,7 +80,7 @@ span {
 
 
 /* Heading styling in home content */
-.home-content h3 {
+.home-content h2 {
     font-size: 4rem;
     margin-bottom: 1rem;
     font-weight: 700;
