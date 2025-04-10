@@ -4,9 +4,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: white;
-    color: #6B6961;
+    color: #D6D6D6;
 }
-
 
 /* Header Styling */
 header {
@@ -59,7 +58,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    background-color:#7a786f;
+    background-color:#E3E3E3;
 }
 
 /* Home content styling */
